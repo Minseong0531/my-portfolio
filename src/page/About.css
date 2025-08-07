@@ -1,0 +1,23 @@
+#about > .about-inner{
+    padding: 40px;
+}
+
+#about > .about-inner > .contents-wrap{
+    box-sizing: border-box;
+    width: calc(100vw - 17rem);
+    height: 100vh;
+}
+
+#about > .about-inner > .contents-wrap > img{
+    display: block; width: 300px; height: 300px; border-radius: 50%;
+}
+#about > .about-inner > .contents-wrap > strong{
+    font-size: 5rem;
+}
+#about > .about-inner > .contents-wrap > strong > span{
+    color: #00BFA6;
+}
+#about > .about-inner > .contents-wrap > p{
+    font-size: 1.25rem; font-weight: 700; margin: 0;
+}
+
