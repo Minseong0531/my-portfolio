@@ -24,17 +24,36 @@ export const siteText=[
     {text:["make","site compliant with","webstandard"], title:"목적으로한 사이트 제작",code:"https://코드뷰 github주소", view:"https://페이지github주소", info:["site conding","prduction period:five days","use stack:HTML5/CSS3/Rect"]},
   ]
   
-  export const projectText=[
-    {num:"01", title:"프로젝트이름1", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-    {num:"02", title:"프로젝트이름2", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-    {num:"03", title:"프로젝트이름3", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-    {num:"04", title:"프로젝트이름4", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-    {num:"05", title:"프로젝트이름5", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-    {num:"06", title:"프로젝트이름6", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-    {num:"07", title:"프로젝트이름7", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-    {num:"08", title:"프로젝트이름8", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-    {num:"09", title:"프로젝트이름9", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-    {num:"10", title:"프로젝트이름10", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
+  export const skillStacks=[
+    {
+      category : 'basic',
+      skills:[
+        {title:'HTML', src:'./skill/HTML.svg', text:''},
+        {title:'CSS', src:'./skill/CSS.svg', text:''},
+        {title:'JavaScript', src:'./skill/JavaScript.svg', text:''}
+      ]
+    },
+    {
+      category : 'library',
+      skills:[
+        {title:'React', src:'./skill/React.svg', text:''},
+        {title:'Redux', src:'./skill/Redux.svg', text:''},
+        {title:'Axios', src:'./skill/Axios.svg', text:''},
+        {title:'Swiper', src:'./skill/Swiper.svg', text:''},
+        {title:'Lenis', src:'./skill/Lenis.svg', text:''},
+        {title:'TailwindCSS-Dark', src:'./skill/TailwindCSS-Dark.svg', text:''},
+        {title:'GSAP', src:'./skill/Gsap.svg', text:''}
+        
+      ]
+    },
+    {
+      category : 'design',
+      skills:[
+        {title:'Figma', src:'./skill/Figma.svg', text:''},
+        {title:'XD', src:'./skill/XD.svg', text:''},
+        {title:'Illustrator', src:'./skill/Illustrator.svg', text:''}
+      ]
+    }
   ]
   
   export const contactText=[

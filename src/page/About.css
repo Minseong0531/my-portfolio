@@ -1,23 +1,23 @@
-#about > .about-inner{
-    padding: 40px;
-}
 
-#about > .about-inner > .contents-wrap{
+#about > .innerbox > .contents-wrap{
     box-sizing: border-box;
-    width: calc(100vw - 17rem);
+    width: calc(100vw - 23rem);
     height: 100vh;
 }
 
-#about > .about-inner > .contents-wrap > img{
+#about > .innerbox > .contents-wrap > img{
     display: block; width: 300px; height: 300px; border-radius: 50%;
 }
-#about > .about-inner > .contents-wrap > strong{
-    font-size: 5rem;
+#about > .innerbox > .contents-wrap > strong{
+    font-size: 5rem; font-weight: 700;
 }
-#about > .about-inner > .contents-wrap > strong > span{
+#about > .innerbox > .contents-wrap > strong > span{
     color: #00BFA6;
 }
-#about > .about-inner > .contents-wrap > p{
-    font-size: 1.25rem; font-weight: 700; margin: 0;
+#about > .innerbox > .contents-wrap > .address{
+    font-size: 1.25rem; color: #777; font-weight: 600;
+}
+#about > .innerbox > .contents-wrap > .info-text{
+    font-size: 1.5rem; font-weight: 700; margin: 0;
 }
 

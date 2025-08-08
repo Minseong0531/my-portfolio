@@ -1,3 +1,19 @@
 #skill{
     height: 100vh;
 }
+
+#skill > .innerbox > .stacks > .stacks-wrap{
+    margin-bottom: 75px;
+}
+
+#skill > .innerbox > .stacks > .stacks-wrap > .skill-items {
+    display: flex; flex-flow: row wrap;
+    padding: 1rem; gap: 20px;
+}
+
+#skill > .innerbox > .stacks > .stacks-wrap > .skill-items > .skill-item{
+    width: 7rem; height: 7rem;
+}
+#skill > .innerbox > .stacks > .stacks-wrap > .skill-items > .skill-item > img{
+    width: 100%; height: 100%;
+}

@@ -21,7 +21,6 @@ function App() {
       top: positions[index],
       behavior: 'smooth',
     });
-    setActiveIndex(index);
   }
 
   useEffect(()=>{

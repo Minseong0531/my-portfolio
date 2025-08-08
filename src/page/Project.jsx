@@ -4,9 +4,9 @@ import './Project.css'
 function Project(){
     return(
         <section id="project">
-            <div className="project_inner">
+            <div className="innerbox">
                 <h2 className="project_title title">
-                    Web Page Coding <em>my work's</em>
+                    Project <em>my work's</em>
                 </h2>
                 <div className="project_wrap">
                     {
@@ -18,7 +18,7 @@ function Project(){
                                     <div>{ site.text[1] }</div>
                                     <div>{ site.text[2] }</div>
                                 </div>
-                                <h3 className="title">{ site.title }</h3>
+                                <h3 className="project-title">{ site.title }</h3>
                                 <div className="btn">
                                     <a href={site.code}> Code View </a>
                                     <a href={site.view}> Site View </a>
