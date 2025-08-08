@@ -1,7 +1,8 @@
 import { menuItems } from '../utils/textdata';
+
 import './Header.css';
 
-function Header({ activeIndex, onNavigate }) {
+function Header({ activeIndex, onNavigate, toggleTheme, isDarkMode }) {
   
 
     return (
@@ -25,6 +26,9 @@ function Header({ activeIndex, onNavigate }) {
                 }
               </ul>
             </div>
+            <button onClick={toggleTheme}>
+              {isDarkMode ? '라이트 모드' : '다크 모드'}로 전환
+            </button>
           </nav>
     )
   }
