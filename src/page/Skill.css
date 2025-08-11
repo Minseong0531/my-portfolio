@@ -17,3 +17,6 @@
 #skill > .innerbox > .stacks > .stacks-wrap > .skill-items > .skill-item > img{
     width: 100%; height: 100%;
 }
+#skill > .innerbox > .stacks > .stacks-wrap > .skill-items > .skill-item > p{
+    text-align: center;
+}

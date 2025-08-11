@@ -7,4 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     transition: background-color 0.3s, color 0.3s;
   }
+  #about > .innerbox > .contents-wrap > .education > .edu-wrap > div > p.term{
+    color: ${({ theme }) => theme.text};
+  }
 `;
