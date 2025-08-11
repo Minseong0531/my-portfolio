@@ -8,7 +8,7 @@ function About() {
                 ABOUT ME <em>MY STORY</em>
               </h2>
               <div className="contents-wrap">
-                  <img src="/image/profile.jpg" alt="프로필 이미지" />
+                  <img src="./image/profile.jpg" alt="프로필 이미지" />
                   <strong>MINSEONG <span>YEON!</span></strong>
                   <p className='address'>
                     <span>Tel : 010-6307-0531</span> | <span>Email : rtc453@naver.com</span> | <span>Address : 인천광역시 계양구</span>

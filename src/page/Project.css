@@ -1,48 +1,16 @@
-em{font-size: 1.25rem; font-weight: 400; line-height:2;}
+#project{ margin-top:30vh;}
 
-.project_inner > .project_title{
-    
-}
-    
-.innerbox > .project_wrap > .project_item{
-    height: 70vh; display: flex; flex-direction: column; justify-content: center;
-    position: sticky; left: 0;
-            &.s1{
-                background-color: #D68C6A; top: 180px;
-                @media (max-width800px) { top:140px }
-            }
-            &.s2{
-                background-color: #8A8D65; top: 200px;
-                @media (max-width800px) { top:160px }
-            }
-            &.s3{
-                background-color: #D4BFAA; top: 220px;
-                @media (max-width800px) { top:180px }
-            }
-            &.s4{
-                background-color: #935F45; top: 240px;
-                @media (max-width800px) { top:200px }
-            }
-            .num{
-                font-size: 5vw; line-height: 1; font-weight: 900;
-                position: absolute; left: 1vw; top: 1vw;
-            }
-            .text{
-                text-align: center; margin-bottom: 1rem;
-            }
-            .text > div{
-                font-size: 3vw; line-height: 1; font-weight: 900; text-transform: uppercase;
-                text-decoration: underline;
-                
-            }
-            .project-title{margin-bottom: 1rem;}
-            .btn > a{
-                text-decoration: underline; text-transform: uppercase; color:#333;
-                font-size: 1rem; transition: all .3s; margin: 0 2px;
-                &:hover{color: #222; font-weight: 700;}
-            }
-            .info{
-                position: absolute; left: 0; bottom: 3%; width: 98%; margin-left: 1%;
-                border-top: 1px solid #000; display: flex; justify-content: space-between;
-            }
-        }
+#project .project_wrap {display: flex; flex-wrap: wrap; width: max-content;}
+      
+        
+#project .project_item{ width: 500px; flex: 0 0 auto; height: 70vh; padding: 2.5rem; margin-right: 20px;}
+#project .project_item > .num{ font-size: 2rem;}
+#project .project_item > .img{ display: block; margin-top: -10px; transition: margin-top .3s;}
+#project .project_item > .img > img{ border-radius: 7px; filter:saturate(0%); transition:all .3s; max-width: 500px; max-height: 250px;}
+#project .project_item > .img > img:hover{margin-top: 0; filter:saturate(100%);}
+
+#project > .project_wrap > .project_item > .desc{            font-size: 1rem;         }
+          .pj{
+            border: 1px solid var(--black); display: block; text-align: center;
+            padding:0.624rem 1.5rem; margin-top: 1.5rem; transition: all 0.2s;
+          }
