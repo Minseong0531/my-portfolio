@@ -5,6 +5,7 @@ import Header from './page/Header'
 import lenis from './utils/smooth'
 import Skill from './page/Skill'
 import Project from './page/Project'
+import Contact from './page/Contact'
 import { GlobalStyle } from './theme/global'
 import { darkTheme, lightTheme } from './theme/theme'
 import { ThemeProvider } from 'styled-components'
@@ -15,6 +16,7 @@ function App() {
   const [positions, setPositions] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isDarkMode, setIsDarkMode] = useState(false);
+
 
   const toggleTheme = () => setIsDarkMode(!isDarkMode);
 
@@ -33,8 +35,16 @@ function App() {
   useEffect(()=>{
     const handleScroll = () =>{
       const scrollY = window.scrollY;
+      const scrollBottom = scrollY + window.innerHeight;
+      const docHeight = document.body.scrollHeight;
       for (let i = positions.length -1; i>=0; i--){
-        if (scrollY >= positions[i]-10){
+         // 마지막 섹션은 맨 아래에 도달했거나 스크롤 위치가 offsetTop 이상이면 active
+         if (i === positions.length - 1) {
+          if (scrollBottom >= docHeight - 2 || scrollY >= positions[i] - 10) {
+            setActiveIndex(i);
+            break;
+          }
+        } else if (scrollY >= positions[i] - 10) {
           setActiveIndex(i);
           break;
         }
@@ -58,6 +68,9 @@ function App() {
     }
   }
   
+  useEffect(() => {
+    console.log("positions", positions);
+  }, [positions]);
 
 useEffect(()=>{
   lenis();
@@ -78,6 +91,9 @@ useEffect(()=>{
         </div>
         <div ref={setRef(2)}>
           <Project />
+        </div>
+        <div ref={setRef(3)}>
+          <Contact />
         </div>
         </main>
       </div>

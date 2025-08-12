@@ -15,7 +15,6 @@ function About() {
                   </p>
                   <p className='info-text'>안녕하세요! :&#41; 꿈을 꾸는 프론트엔드 개발자 연민성입니다.</p>
                   <div className="education">
-                    <h3>Education</h3>
                     <div className='edu-wrap'>
                       <div>
                         <p>SBS아카데미학원<span> -웹 퍼블리셔 과정</span></p><p className='term'>2024.12 ~ 2025.08</p>  

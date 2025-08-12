@@ -1,3 +1,7 @@
+#about h3{
+    font-size: 2rem; font-weight: 600;
+}
+
 
 #about > .innerbox > .contents-wrap{
     box-sizing: border-box;
@@ -22,7 +26,7 @@
 }
 
 #about > .innerbox > .contents-wrap > .education{
-    padding: 0 8rem; max-width: 1080px; 
+    padding: 0; max-width: 1080px; margin: 1rem 0;
 }
 #about > .innerbox > .contents-wrap > .education > .edu-wrap{
     padding: 1.5rem 0;  border-bottom: 1px dashed;

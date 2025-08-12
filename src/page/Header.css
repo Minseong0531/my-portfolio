@@ -1,40 +1,22 @@
 .left-contents{
-    text-align: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 17rem;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background: #333;
-    z-index: 100000;
+    text-align: center;    position: fixed;    left: 0;    top: 0;    width: 17rem;    display: flex;
+    flex-direction: column;    height: 100vh;    background: #333;    z-index: 100000;
 }
 .left-contents > div {
-    box-sizing: border-box;
-    padding: 40px;
-    margin-bottom: auto;
-    width: 100%;
+    box-sizing: border-box;    padding: 40px;    margin-bottom: auto;    width: 100%;
 }
 .left-contents > div > ul{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    display: flex;    flex-direction: column;    width: 100%;
 }
 .left-contents > div > ul > li{
     display: block;
 }
 .left-contents > div > ul > li > a{
-    font-size: 1.5rem;
-    color: #fff;
-    font-weight: 700;
+    font-size: 1.5rem;    color: #fff;    font-weight: 700;
 }
 
 .left-contents > div > ul > li > a{
-    font-size: 1.5rem;
-    color: #fff;
-    font-weight: 700;
-    opacity: 0.5;
+    font-size: 1.5rem;    color: #fff;    font-weight: 700;    opacity: 0.5;
 }
 .left-contents > div > ul > li > a.active{
     opacity: 1;
