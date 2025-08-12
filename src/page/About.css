@@ -43,3 +43,59 @@
 #about > .innerbox > .contents-wrap > .education > .edu-wrap > div > p > span{
     font-size: 1.25rem; font-weight: 300; color: #777;
 }
+
+@media (max-width: 460px){
+    #about > .innerbox > .contents-wrap {
+      width: 100vw; height: auto; padding: 1rem;
+    }
+  
+    #about > .innerbox > .contents-wrap > img {
+      width: 150px; height: 150px; margin: 0 auto 1rem;
+    }
+  
+    #about h3 {
+      font-size: 1.5rem; font-weight: 600; text-align: center;
+    }
+    #about > .innerbox > .contents-wrap > strong {
+      font-size: 2.5rem; font-weight: 700; display: block; text-align: center; margin-bottom: 0.5rem;
+    }
+  
+    #about > .innerbox > .contents-wrap > strong > span {
+      color: #00BFA6;
+    }
+  
+    #about > .innerbox > .contents-wrap > .address {
+      font-size: 1rem; color: #777; font-weight: 600; text-align: center; margin-bottom: 1rem;
+    }
+  
+    #about > .innerbox > .contents-wrap > .info-text {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 0 auto 1.5rem;
+      text-align: center;
+    }
+  
+    #about > .innerbox > .contents-wrap > .education {
+      max-width: 100%; margin: 1rem 0; padding: 0 0.5rem;
+    }
+  
+    #about > .innerbox > .contents-wrap > .education > .edu-wrap {
+      padding: 1rem 0; border-bottom: 1px dashed;
+    }
+  
+    #about > .innerbox > .contents-wrap > .education > .edu-wrap > div {
+      flex-direction: column; align-items: flex-start;
+    }
+  
+    #about > .innerbox > .contents-wrap > .education > .edu-wrap > div > p {
+      font-size: 1.2rem; font-weight: bold; color: #00BFA6; margin-bottom: 0.25rem;
+    }
+  
+    #about > .innerbox > .contents-wrap > .education > .edu-wrap > div > p.term {
+      font-size: 0.9rem; color: #000;
+    }
+  
+    #about > .innerbox > .contents-wrap > .education > .edu-wrap > div > p > span {
+      font-size: 1rem; font-weight: 300; color: #777;
+    }
+  }

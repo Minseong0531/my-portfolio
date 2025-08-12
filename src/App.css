@@ -37,3 +37,20 @@ img{ display: block; width: 100%;}
 em{
   font-size: 1rem;
 }
+
+@media (max-width:460px) {
+  #about, #contact, #project, #skill{
+    max-width: 480px; width: 100%; margin: 0;
+  }
+  .right-contents{
+    margin: 0;
+  }
+  .innerbox{
+    padding: 15px; box-sizing: border-box;
+    max-width: 100%;
+  }
+  .title{
+    position: sticky; top: 0px; left: 0; width: 50vw; height: 5vw;
+      font-size: 2rem; font-weight: 900; line-height: 1.6;
+  }
+}
