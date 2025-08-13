@@ -9,8 +9,9 @@ export const menuItems = [
 export const projectText=[
   {num:"01", title:"크로노아크 소개 사이트 제작", desc:"프로젝트 목적,기획,설명글", img:"./image/project1.png", code:"https://github.com/Minseong0531/Chronoark", view:"https://minseong0531.github.io/Chronoark/", name:"이미지설명글_프로젝트명"},
   {num:"02", title:"기업 홈페이지 리뉴얼", desc:"프로젝트 목적,기획,설명글", img:"./image/project2.png", code:"https://github.com/Minseong0531/smilegate", view:"https://minseong0531.github.io/smilegate/", name:"이미지설명글_프로젝트명"},
-  {num:"03", title:"쇼핑몰 사이트 제작", desc:"프로젝트 목적,기획,설명글", img:"./image/project3.png", code:"https://github.com/Minseong0531/boardgame-shop", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
-  {num:"04", title:"프로젝트이름4", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://코드뷰 github주소", view:"https://페이지github주소", name:"이미지설명글_프로젝트명"},
+  {num:"03", title:"쇼핑몰 사이트 제작", desc:"프로젝트 목적,기획,설명글", img:"./image/project3.png", code:"https://github.com/Minseong0531/boardgame-shop", view:"https://minseong0531.github.io/boardgame-shop/", name:"이미지설명글_프로젝트명"},
+  {num:"04", title:"프로필 사이트", desc:"프로젝트 목적,기획,설명글", img:"./image/project4.png", code:"https://github.com/Minseong0531/my-portfolio", view:"https://minseong0531.github.io/my-portfolio/", name:"이미지설명글_프로젝트명"},
+  {num:"05", title:"가계부 어플", desc:"프로젝트 목적,기획,설명글", img:"https://picsum.photos/420/264", code:"https://github.com/Minseong0531/my-portfolio", view:"https://minseong0531.github.io/my-portfolio/", name:"이미지설명글_프로젝트명"},
 ]
   
   export const skillStacks=[
