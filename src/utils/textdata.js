@@ -15,7 +15,7 @@ export const projectText = [
     code: "https://github.com/Minseong0531/Chronoark",
     view: "https://minseong0531.github.io/Chronoark/",
     name: "크로노아크 이미지_프로젝트",
-    tech: ["HTML", "CSS", "JavaScript", "GSAP", "React", "GitHub Pages"]
+    tech: ["React", "CSS", "HTML", "JavaScript", "Framer Motion"]
   },
   {
     num: "02",
@@ -25,7 +25,7 @@ export const projectText = [
     code: "https://github.com/Minseong0531/smilegate",
     view: "https://minseong0531.github.io/smilegate/",
     name: "스마일게이트 이미지_프로젝트",
-    tech: ["HTML", "CSS", "JavaScript", "React"]
+    tech: ["CSS", "HTML", "JavaScript", ]
   },
   {
     num: "03",
@@ -35,7 +35,7 @@ export const projectText = [
     code: "https://github.com/Minseong0531/boardgame-shop",
     view: "https://minseong0531.github.io/boardgame-shop/",
     name: "보드게임샵 이미지_프로젝트",
-    tech: ["React", "CSS", "JavaScript", "GitHub Pages", "React Router"]
+    tech: ["React", "CSS", "HTML", "JavaScript", "Redux", "React Router"]
   },
   {
     num: "04",
@@ -52,10 +52,10 @@ export const projectText = [
     title: "가계부 어플",
     desc: ["개인 가계부 앱 제작 프로젝트.", "사용자가 수입/지출을 기록하고 시각적 통계와 그래프로 소비 패턴을 쉽게 확인 가능."],
     img: "./image/project5.png",
-    code: "https://github.com/Minseong0531/my-portfolio",
-    view: "https://minseong0531.github.io/my-portfolio/",
+    code: "https://github.com/Minseong0531/budget-app",
+    view: "https://minseong0531.github.io/budget-app/",
     name: "가계부 이미지_프로젝트",
-    tech: ["React", "CSS", "Chart.js", "LocalStorage", "JavaScript"]
+    tech: ["React", "CSS", "Chart.js", "LocalStorage", "JavaScript", "redux"]
   },
 ];
   
