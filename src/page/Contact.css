@@ -1,9 +1,6 @@
 .contact{
     height: 100ch;
 }
-.contact .innerbox{
-    width: 1080px;
-}
 
 .contact form{
     display: flex; flex-direction: column; gap: 1rem;
@@ -26,7 +23,7 @@
 
 .contact button { 
     background: #00BFA6;  color: #000;  font-weight: 600;  font-size: 15px;  padding: 14px;
-    border: none;  border-radius: 8px;  cursor: pointer;  transition: background 0.3s ease; width: 10vw; margin: 0 auto;
+    border: none;  border-radius: 8px;  cursor: pointer;  transition: background 0.3s ease; width: 20%; margin: 0 auto;
 }
 
 .contact button:hover {

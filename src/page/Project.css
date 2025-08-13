@@ -1,6 +1,6 @@
 #project{ margin-top:30vh;}
 
-#project .project_wrap {display: flex; flex-wrap: wrap; width: max-content;}
+#project .project_wrap {display: flex; flex-wrap: nowrap; width: max-content;}
       
         
 #project .project_item{ width: 500px; flex: 0 0 auto; height: 70vh; padding: 2.5rem; margin-right: 20px;}
@@ -14,3 +14,21 @@
             border: 1px solid var(--black); display: block; text-align: center;
             padding:0.624rem 1.5rem; margin-top: 1.5rem; transition: all 0.2s;
           }
+@media (max-width: 768px) {
+  #project .project_wrap {
+    width: 100%; 
+    flex-flow: row wrap;
+  }
+
+  #project .project_item {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  #project .project_item > .img > img {
+    max-width: 100%;
+    height: auto;
+  }
+}

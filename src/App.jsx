@@ -17,6 +17,20 @@ function App() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const updateWidth = () => setWindowWidth(window.innerWidth);
+    updateWidth(); // 마운트 시 값 세팅
+    window.addEventListener('resize', updateWidth);
+    return () => window.removeEventListener('resize', updateWidth);
+  }, []);
+
+  if (windowWidth === 0) {
+    // 정확한 뷰포트 사이즈 알기 전까지 렌더링 안함
+    return null;
+  }
+  const isMobile = windowWidth <= 760;
 
   const toggleTheme = () => setIsDarkMode(!isDarkMode);
 
@@ -52,7 +66,6 @@ function App() {
     };
 
     window.addEventListener('scroll',handleScroll);
-    console.log(scrollY);
     return ()=> window.removeEventListener('scroll', handleScroll);
   },[positions]);
 
@@ -83,16 +96,16 @@ useEffect(()=>{
       <div className="contents-wrap">
         <Header activeIndex={activeIndex} onNavigate={scrollToSection} toggleTheme={toggleTheme} isDarkMode={isDarkMode}/>
         <main className="right-contents">
-        <div ref={setRef(0)}>
+        <div ref={setRef(0)} className={isMobile ? 'section-mobile' : 'section-desktop'}>
           <About />
         </div>
-        <div ref={setRef(1)}>
+        <div ref={setRef(1)} className={isMobile ? 'section-mobile' : 'section-desktop'}>
           <Skill />
         </div>
-        <div ref={setRef(2)}>
-          <Project />
+        <div ref={setRef(2)} className={isMobile ? 'section-mobile' : 'section-desktop'}>
+          <Project isMobile={windowWidth <= 760}/>
         </div>
-        <div ref={setRef(3)}>
+        <div ref={setRef(3)} className={isMobile ? 'section-mobile' : 'section-desktop'}>
           <Contact />
         </div>
         </main>

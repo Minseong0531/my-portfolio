@@ -22,10 +22,10 @@
     opacity: 1;
 }
 
-@media (max-width: 460px){
+@media (max-width: 760px){
     .left-contents {
-    position: fixed; width: 100%; height: auto; max-height: 50px; top: 0; flex-direction: row;
-    background: #333; overflow-x: auto; z-index: 100000; padding: 10px 0; justify-content: space-around;
+    position: fixed; width: 100%; height: auto; max-height: 80px; top: 0; flex-direction: row;
+    background: #333; overflow-x: auto; z-index: 100000; padding: 0; justify-content: space-around;
     }
 
     .left-contents > div {
