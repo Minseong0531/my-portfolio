@@ -101,7 +101,8 @@ function Project({ isMobile }) {
                 <img src={project.img} alt="" />
               </a>
               <h2 className="p-title">{project.title}</h2>
-              <p className="desc">{project.desc}</p>
+              <p className="desc">{project.desc[0]}</p>
+              <p className="desc">{project.desc[1]}</p>
               <a href={project.code} target="_blank" className="pj" rel="noreferrer noopener">
                 프로젝트 보기
               </a>
