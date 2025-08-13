@@ -31,7 +31,7 @@ function About() {
                       <div>
                         <p>공항고등학교<span> -인문계</span></p><p className='term'>2015.03 ~ 2017.12</p>  
                       </div>
-                      <p>인천</p>
+                      <p>서울</p>
                     </div>
                 </div>
               </div>
