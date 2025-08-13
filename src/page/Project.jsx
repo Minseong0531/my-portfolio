@@ -89,10 +89,10 @@ function Project({ isMobile }) {
         <h2 className="title">
           Portfolio <em>project</em>
         </h2>
-        <div className="project_wrap" ref={horizontalRef}>
+        <div className="project-wrap" ref={horizontalRef}>
           {projectText.map((project, index) => (
             <article
-              className={`project_item p${index + 1}`}
+              className={`project-item p${index + 1}`}
               key={index}
               ref={setSectionRef(index)}
             >
@@ -100,12 +100,23 @@ function Project({ isMobile }) {
               <a href={project.view} target="_blank" className="img" rel="noreferrer noopener">
                 <img src={project.img} alt="" />
               </a>
-              <h2 className="p-title">{project.title}</h2>
-              <p className="desc">{project.desc[0]}</p>
-              <p className="desc">{project.desc[1]}</p>
-              <a href={project.code} target="_blank" className="pj" rel="noreferrer noopener">
-                프로젝트 보기
-              </a>
+              <div className="text-wrap">
+                <h2 className="p-title">{project.title}</h2>
+                <p className="desc">{project.desc[0]}</p>
+                <p className="desc">{project.desc[1]}</p>
+                <div className="tech-wrap">
+                  {project.tech.map((stack, index) => (
+                    <p key={index}>
+                      {stack}
+                    </p>
+                  ))
+
+                  }
+                </div>
+                <a href={project.code} target="_blank" className="pj" rel="noreferrer noopener">
+                  프로젝트 보기
+                </a>
+              </div>
             </article>
           ))}
         </div>

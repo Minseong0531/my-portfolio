@@ -46,8 +46,8 @@ export const projectText = [
     view: "https://minseong0531.github.io/my-portfolio/",
     name: "포트폴리오 이미지_프로젝트",
     tech: ["React", "GSAP", "CSS", "JavaScript", "Responsive Design"]
-  }
-  /* {
+  },
+  {
     num: "05",
     title: "가계부 어플",
     desc: ["개인 가계부 앱 제작 프로젝트.", "사용자가 수입/지출을 기록하고 시각적 통계와 그래프로 소비 패턴을 쉽게 확인 가능."],
@@ -56,7 +56,7 @@ export const projectText = [
     view: "https://minseong0531.github.io/my-portfolio/",
     name: "가계부 이미지_프로젝트",
     tech: ["React", "CSS", "Chart.js", "LocalStorage", "JavaScript"]
-  }, */
+  },
 ];
   
   export const skillStacks=[

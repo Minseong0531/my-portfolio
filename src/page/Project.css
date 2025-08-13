@@ -1,33 +1,32 @@
 #project{ margin-top:30vh;}
 
-#project .project_wrap {display: flex; flex-wrap: nowrap; width: max-content;}
-      
+#project .project-wrap {display: flex; flex-wrap: nowrap; width: max-content;}
+#project .text-wrap{ width: 100%; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 7px;}
+#project .tech-wrap{display: flex; gap: 10px; margin-top: 15px; border-bottom: 1px solid #000;}      
         
-#project .project_item{ width: 500px; flex: 0 0 auto; height: 70vh; padding: 2.5rem; margin-right: 20px;}
-#project .project_item > .num{ font-size: 2rem;}
-#project .project_item > .img{ display: block; margin-top: -10px; transition: margin-top .3s;}
-#project .project_item > .img > img{ border-radius: 7px; filter:saturate(0%); transition:all .3s; max-width: 500px; max-height: 250px;}
-#project .project_item > .img > img:hover{margin-top: 0; filter:saturate(100%);}
+#project .project-item{ width: 500px; flex: 0 0 auto; height: 70vh; padding: 2.5rem; margin-right: 20px;}
+#project .project-item > .num{ font-size: 2rem;}
+#project .project-item > .img{ display: block; margin-top: -10px; transition: margin-top .3s;}
+#project .project-item > .img > img{ border-radius: 7px; filter:saturate(0%); transition:all .3s; max-width: 500px; max-height: 250px;}
+#project .project-item > .img > img:hover{margin-top: 0; filter:saturate(100%);}
 
-#project > .project_wrap > .project_item > .desc{            font-size: 1rem;         }
-          .pj{
-            border: 1px solid var(--black); display: block; text-align: center;
-            padding:0.624rem 1.5rem; margin-top: 1.5rem; transition: all 0.2s;
-          }
+#project h3{font-size: 2rem;}
+#project .desc{            font-size: 1rem;         }
+          
 @media (max-width: 768px) {
-  #project .project_wrap {
+  #project .project-wrap {
     width: 100%; 
     flex-flow: row wrap;
   }
 
-  #project .project_item {
+  #project .project-item {
     max-width: 500px;
     width: 100%;
     height: auto;
     margin-right: 0;
   }
 
-  #project .project_item > .img > img {
+  #project .project-item > .img > img {
     max-width: 100%;
     height: auto;
   }
