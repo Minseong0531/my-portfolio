@@ -96,16 +96,16 @@ useEffect(()=>{
       <div className="contents-wrap">
         <Header activeIndex={activeIndex} onNavigate={scrollToSection} toggleTheme={toggleTheme} isDarkMode={isDarkMode}/>
         <main className="right-contents">
-        <div ref={setRef(0)} className={isMobile ? 'section-mobile' : 'section-desktop'}>
+        <div ref={setRef(0)}>
           <About />
         </div>
-        <div ref={setRef(1)} className={isMobile ? 'section-mobile' : 'section-desktop'}>
+        <div ref={setRef(1)}>
           <Skill />
         </div>
-        <div ref={setRef(2)} className={isMobile ? 'section-mobile' : 'section-desktop'}>
+        <div ref={setRef(2)}>
           <Project isMobile={windowWidth <= 760}/>
         </div>
-        <div ref={setRef(3)} className={isMobile ? 'section-mobile' : 'section-desktop'}>
+        <div ref={setRef(3)}>
           <Contact />
         </div>
         </main>
