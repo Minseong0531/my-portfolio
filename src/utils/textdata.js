@@ -85,7 +85,8 @@ export const projectText = [
       skills:[
         {title:'Figma', src:'./skill/Figma.svg', text:''},
         {title:'XD', src:'./skill/XD.svg', text:''},
-        {title:'Illustrator', src:'./skill/Illustrator.svg', text:''}
+        {title:'Illustrator', src:'./skill/Illustrator.svg', text:''},
+        {title:'Photoshop', src:'./skill/Photoshop.svg', text:''}
       ]
     }
   ]

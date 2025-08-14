@@ -1,5 +1,5 @@
 .contact{
-    height: 100ch;
+    height: 100vh;
 }
 
 .contact form{
@@ -29,3 +29,4 @@
 .contact button:hover {
   background: #00BFA6;
 }
+
